@@ -25,6 +25,7 @@
         } else {
             $self = $('<a/>', {
                 id: o.scrollName,
+                class: "fas fa-2x fa-arrow-circle-up",
                 href: '#top'
             });
         }
@@ -56,7 +57,7 @@
                 position: 'absolute',
                 'top': o.scrollDistance + 'px',
                 width: '100%',
-                borderTop: '1px dotted' + o.activeOverlay,
+                borderTop: '0px dotted' + o.activeOverlay,
                 zIndex: o.zIndex
             }).appendTo('body');
         }
