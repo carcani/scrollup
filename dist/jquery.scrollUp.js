@@ -31,7 +31,7 @@
         } else {
             $self = $('<a/>', {
                 id: o.scrollName,
-                class: "fas fa-2x fa-arrow-circle-up",
+                class: "fa-solid fa-2x fa-arrow-circle-up",
                 href: '#top'
             });
         }
